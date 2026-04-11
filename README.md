@@ -50,11 +50,11 @@ Complete **Detection + Tracking pipeline** for underwater video sequences. A YOL
 
 ### Models Compared
 
-| Model | Params | mAP@0.5 | Notes |
-|-------|--------|---------|-------|
-| yolo26n | ~3M | 0.402 | Unstable after epoch 3 |
-| yolo11s | ~9M | 0.475 | Early stopped epoch 39 |
-| **yolo11m** | **~20M** | **0.504** | **Selected** |
+| Model | Params | mAP@0.5 |
+|-------|--------|---------|
+| yolo26n | ~3M | 0.402 |
+| yolo11s | ~9M | 0.475 |
+| **yolo11m** | **~20M** | **0.504** |
 
 ### Hyperparameters
 
