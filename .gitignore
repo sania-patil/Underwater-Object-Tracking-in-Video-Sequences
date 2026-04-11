@@ -1,0 +1,44 @@
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.weights
+
+# Dataset images (too large)
+yolo_dataset/images/
+yolo_dataset/labels/
+yolo_dataset_sub/
+yolo_dataset_sub3/
+
+# Training runs (large)
+runs/detect/
+runs/compare/
+runs/experiments/
+runs/experiments2/
+runs/hp_search/
+runs/lr_search/
+runs/medium_search/
+runs/retrain/
+runs/uot32_finetune*/
+runs/yolo11s_uot*/
+
+# Keep tracking results and plots
+!runs/tracking/
+!runs/tracking/evaluation.csv
+!runs/tracking/evaluation.json
+!runs/tracking/evaluation_single_vs_multi.csv
+!runs/tracking/plots/
+
+# Annotated videos (large)
+runs/tracking/annotated/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Kiro spec files (optional - keep if you want)
+# .kiro/
+
+# Wandb logs
+wandb/

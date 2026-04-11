@@ -1,0 +1,6 @@
+path: /workspace/yolo_dataset
+train: images/train
+val: images/val
+
+nc: 1
+names: ['underwater_object']

@@ -1,0 +1,12 @@
+ultralytics
+torch
+opencv-python
+numpy
+pyyaml
+motmetrics
+hypothesis
+pytest
+deep-sort-realtime
+lapjv
+scipy
+filterpy

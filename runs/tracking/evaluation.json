@@ -1,0 +1,173 @@
+{
+  "sort": {
+    "aggregate": {
+      "mota": 0.09930280761258715,
+      "motp": 0.23897654637381474,
+      "total_id_switches": 68
+    },
+    "sequences": {
+      "BlueFish2": {
+        "mota": -0.3709949409780775,
+        "motp": 0.2796199528514195,
+        "id_switches": 9,
+        "num_frames": 593
+      },
+      "BoySwimming": {
+        "mota": -0.992283950617284,
+        "motp": 0.0,
+        "id_switches": 0,
+        "num_frames": 648
+      },
+      "Dolphin2": {
+        "mota": 0.46153846153846156,
+        "motp": 0.23826411839401682,
+        "id_switches": 9,
+        "num_frames": 390
+      },
+      "Fisherman": {
+        "mota": 0.3347457627118644,
+        "motp": 0.21212503684514325,
+        "id_switches": 9,
+        "num_frames": 708
+      },
+      "HoverFish2": {
+        "mota": 0.420935412026726,
+        "motp": 0.21408656654084812,
+        "id_switches": 5,
+        "num_frames": 449
+      },
+      "SeaDiver": {
+        "mota": 0.24449877750611249,
+        "motp": 0.24111757272175385,
+        "id_switches": 13,
+        "num_frames": 818
+      },
+      "SeaTurtle2": {
+        "mota": 0.2660996354799514,
+        "motp": 0.3815981344294541,
+        "id_switches": 8,
+        "num_frames": 823
+      },
+      "SeaTurtle3": {
+        "mota": 0.4157175398633257,
+        "motp": 0.2869157856563086,
+        "id_switches": 15,
+        "num_frames": 878
+      }
+    }
+  },
+  "deepsort": {
+    "aggregate": {
+      "mota": -0.992839645750895,
+      "motp": 0.26689328539392443,
+      "total_id_switches": 43
+    },
+    "sequences": {
+      "BlueFish2": {
+        "mota": -4.976391231028668,
+        "motp": 0.3441159679064123,
+        "id_switches": 12,
+        "num_frames": 593
+      },
+      "BoySwimming": {
+        "mota": -0.9969135802469136,
+        "motp": 0.0,
+        "id_switches": 0,
+        "num_frames": 648
+      },
+      "Dolphin2": {
+        "mota": -0.21282051282051273,
+        "motp": 0.25628380535670425,
+        "id_switches": 2,
+        "num_frames": 390
+      },
+      "Fisherman": {
+        "mota": -0.14124293785310726,
+        "motp": 0.30248464438367895,
+        "id_switches": 7,
+        "num_frames": 708
+      },
+      "HoverFish2": {
+        "mota": -0.12472160356347439,
+        "motp": 0.261660458239107,
+        "id_switches": 6,
+        "num_frames": 449
+      },
+      "SeaDiver": {
+        "mota": -1.30440097799511,
+        "motp": 0.2507252221514,
+        "id_switches": 3,
+        "num_frames": 818
+      },
+      "SeaTurtle2": {
+        "mota": 0.020656136087484844,
+        "motp": 0.3795990159935718,
+        "id_switches": 3,
+        "num_frames": 823
+      },
+      "SeaTurtle3": {
+        "mota": -0.4362186788154898,
+        "motp": 0.2998215451849445,
+        "id_switches": 10,
+        "num_frames": 878
+      }
+    }
+  },
+  "fairmot": {
+    "aggregate": {
+      "mota": -0.09534576973808177,
+      "motp": 0.26137675473387484,
+      "total_id_switches": 28
+    },
+    "sequences": {
+      "BlueFish2": {
+        "mota": -1.1568296795952784,
+        "motp": 0.3325115743130486,
+        "id_switches": 4,
+        "num_frames": 593
+      },
+      "BoySwimming": {
+        "mota": -0.9691358024691359,
+        "motp": 0.0,
+        "id_switches": 0,
+        "num_frames": 648
+      },
+      "Dolphin2": {
+        "mota": 0.3205128205128205,
+        "motp": 0.2526409976230398,
+        "id_switches": 2,
+        "num_frames": 390
+      },
+      "Fisherman": {
+        "mota": 0.306497175141243,
+        "motp": 0.27243379520562083,
+        "id_switches": 9,
+        "num_frames": 708
+      },
+      "HoverFish2": {
+        "mota": 0.1492204899777283,
+        "motp": 0.26400587703176237,
+        "id_switches": 4,
+        "num_frames": 449
+      },
+      "SeaDiver": {
+        "mota": -0.2579462102689487,
+        "motp": 0.24539784114491106,
+        "id_switches": 2,
+        "num_frames": 818
+      },
+      "SeaTurtle2": {
+        "mota": 0.3171324422843257,
+        "motp": 0.39005710658010573,
+        "id_switches": 2,
+        "num_frames": 823
+      },
+      "SeaTurtle3": {
+        "mota": 0.39749430523917995,
+        "motp": 0.2941262940401426,
+        "id_switches": 5,
+        "num_frames": 878
+      }
+    }
+  }
+}

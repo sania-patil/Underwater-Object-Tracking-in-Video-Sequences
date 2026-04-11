@@ -1,0 +1,31 @@
+# Underwater Object Tracking Pipeline Configuration
+
+# Detector
+pretrained_checkpoint: "yolov8s.pt"
+dataset_yaml: "yolo_dataset/dataset.yaml"
+train_epochs: 50
+output_dir: "runs/tracking"
+fine_tuned_checkpoint: "runs/compare/yolo11m_sub5/weights/best.pt"
+
+# Inference
+conf_threshold: 0.25
+nms_iou_threshold: 0.45
+
+# SORT
+sort_max_age: 1
+sort_min_hits: 3
+sort_iou_threshold: 0.3
+
+# DeepSORT
+deepsort_max_age: 30
+deepsort_nn_budget: 100
+deepsort_max_cosine_distance: 0.4
+deepsort_reid_model: ""
+
+# FairMOT
+fairmot_model_path: ""
+fairmot_conf_threshold: 0.4
+
+# Evaluation
+eval_iou_threshold: 0.5
+eval_output_path: "runs/tracking/evaluation"
